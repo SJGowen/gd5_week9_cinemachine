@@ -94,13 +94,13 @@ MonoBehaviour:
     m_Start: 14.75
     m_ClipIn: 0
     m_Asset: {fileID: -8023510176597350780}
-    m_Duration: 22.2
+    m_Duration: 21.549999999999997
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8536655044085464184}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 2.2333333333333343
-    m_BlendOutDuration: 1.9333333333333371
+    m_BlendOutDuration: 1.7333333333333272
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -160,15 +160,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: NearSplineCamera
   - m_Version: 1
-    m_Start: 35.016666666666666
+    m_Start: 34.56666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 5218401986627981756}
-    m_Duration: 12.983333333333334
+    m_Duration: 13.43333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8536655044085464184}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.9333333333333371
+    m_BlendInDuration: 1.7333333333333272
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
