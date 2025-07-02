@@ -5875,7 +5875,7 @@ MonoBehaviour:
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 0.5, y: 0.5}
+  Damping: {x: 0.25, y: 0.25}
   Lookahead:
     Enabled: 0
     Time: 0
@@ -5916,7 +5916,7 @@ MonoBehaviour:
     - rid: 8213403590745653469
       type: {class: SplineAutoDolly/FixedSpeed, ns: Unity.Cinemachine, asm: Unity.Cinemachine}
       data:
-        Speed: 0.07
+        Speed: 0.05
 --- !u!114 &448904886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5968,7 +5968,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448904883}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.046199154, y: 0.9476509, z: -0.16107258, w: -0.27180707}
+  m_LocalRotation: {x: -0.046199143, y: 0.9476509, z: -0.16107255, w: -0.2718071}
   m_LocalPosition: {x: 98.97224, y: 39.67657, z: 88.973625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6984,8 +6984,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522811750}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.046199135, y: 0.9476509, z: -0.16107255, w: -0.27180704}
-  m_LocalPosition: {x: 98.97224, y: 39.67657, z: 88.973625}
+  m_LocalRotation: {x: -0.07711376, y: 0.9156469, z: -0.21237047, w: -0.3324802}
+  m_LocalPosition: {x: 86.6151, y: 33.1, z: 63.021736}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13619,7 +13619,7 @@ MonoBehaviour:
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 0.5, y: 0.5}
+  Damping: {x: 0.25, y: 0.25}
   Lookahead:
     Enabled: 0
     Time: 0
@@ -13639,7 +13639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SplineSettings:
     Spline: {fileID: 102678451}
-    Position: 0.5
+    Position: 0.35
     Units: 1
   SplineOffset: {x: 0, y: 0, z: 0}
   CameraRotation: 0
@@ -13660,7 +13660,7 @@ MonoBehaviour:
     - rid: 8213403590745653470
       type: {class: SplineAutoDolly/FixedSpeed, ns: Unity.Cinemachine, asm: Unity.Cinemachine}
       data:
-        Speed: 0.07
+        Speed: 0.05
 --- !u!4 &1129527256
 Transform:
   m_ObjectHideFlags: 0
@@ -13669,8 +13669,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129527251}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.17681883, y: -0.6641451, z: 0.16606438, w: 0.70715564}
-  m_LocalPosition: {x: 93.17286, y: 33.09508, z: 43.373405}
+  m_LocalRotation: {x: -0.077113755, y: 0.9156469, z: -0.21237049, w: -0.33248016}
+  m_LocalPosition: {x: 86.6151, y: 33.1, z: 63.021736}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
