@@ -10414,7 +10414,7 @@ MonoBehaviour:
           m_CallState: 2
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2111731165}
+        - m_Target: {fileID: 1254454390}
           m_TargetAssemblyTypeName: DragonFire, Assembly-CSharp
           m_MethodName: ShootFromMouth
           m_Mode: 1
@@ -15127,6 +15127,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4202130902894980, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
   m_PrefabInstance: {fileID: 1242421297}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1254454389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254454391}
+  - component: {fileID: 1254454390}
+  m_Layer: 0
+  m_Name: DragonBreathSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1254454390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254454389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7725e25d28c580646adbb1be01a97eae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragonFireBreath: {fileID: 918168031808778838, guid: fb8b82f8b7d17274da8901838b506c54, type: 3}
+--- !u!4 &1254454391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254454389}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.013013569, y: 0.98689115, z: -0.10663354, w: 0.12044034}
+  m_LocalPosition: {x: 66.48, y: 33.51, z: 64.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 12.334, y: 166.084, z: 0}
 --- !u!1001 &1257980163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24680,19 +24725,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2111731165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111731163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7725e25d28c580646adbb1be01a97eae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dragonFireBreath: {fileID: 918168031808778838, guid: fb8b82f8b7d17274da8901838b506c54, type: 3}
 --- !u!1001 &2115941708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25161,9 +25193,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100102, guid: ff3dd417bb566b849b752ce57810bbf5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2111731164}
-    - targetCorrespondingSourceObject: {fileID: 100102, guid: ff3dd417bb566b849b752ce57810bbf5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2111731165}
   m_SourcePrefab: {fileID: 100100000, guid: ff3dd417bb566b849b752ce57810bbf5, type: 3}
 --- !u!1001 &2138468300
 PrefabInstance:
@@ -26800,3 +26829,4 @@ SceneRoots:
   - {fileID: 778684608}
   - {fileID: 1167393892}
   - {fileID: 1667228446}
+  - {fileID: 1254454391}
